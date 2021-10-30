@@ -1,0 +1,149 @@
+
+.jumbotron img{
+    width: 33em;
+    height: 40em;
+}
+
+.jumbotron h1{
+    color:darkred;
+    padding-top: 1em;
+}
+
+.jumbotron h2{
+    color:darkred;
+    padding-top:20px;
+}
+
+.left{
+    margin-top: 10em;
+    width: 50%;
+}
+
+.left h2{
+    font-size: 4rem;
+}
+
+.right{
+    display: flex;
+}
+
+.name{
+    margin-top: 2em;
+}
+
+/* .jumbotron p{
+    color:tomato;
+    font-weight: bold;
+} */
+
+.jumbotron{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    background: url("../Foto/background-3.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 8em;
+}
+
+.wave{
+    display: flex;
+    position: absolute;
+    height: 143px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url("../Foto/wave.png");
+    background-repeat:repeat;
+    width: 100%;
+    background-position: -400px 0;
+    
+}
+
+.wave2{
+    display: flex;
+    position: absolute;
+    height: 143px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: url("../Foto/wave-2.png");
+    background-repeat:repeat;
+    width: 100%;
+    background-position: -400px 0;
+}
+
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.about .about_left{
+    margin: auto;
+}
+
+.about .about_right{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    min-height: 700px;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+}
+
+.col-sm-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.project{
+    background: url("../Foto/background-4.jpg"); 
+    position: relative;
+    padding-top: 12em;
+    padding-bottom: 9em;
+    background-attachment: fixed;
+}
+
+.project .h1{
+    margin-top: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact_me{
+    padding-top: 2em;
+    color:tomato;
+}
+
+.contact_me .row .col-sm-offset-5 button{
+    background-color: tomato
+}
+
+.nav .nav-item .nav-link{
+    font-size: 2rem;
+    font-weight:500;
+    color: darkblue
+}
+
+footer p{
+    font-size: 2rem;
+}
+
+footer .container{
+    margin-top: -7em;
+    padding-bottom: 4em;
+}
+
