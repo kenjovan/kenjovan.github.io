@@ -147,3 +147,7 @@ footer .container{
     padding-bottom: 4em;
 }
 
+.nav #cv{
+    background-color:darkblue;
+    color:#00f2ff;
+}
